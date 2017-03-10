@@ -28,6 +28,7 @@ header {
   overflow: hidden;
   margin-top: -80px;
   transform: skewY(-6deg);
+  backface-visibility: hidden;
 }
 
 header::before {
@@ -65,8 +66,6 @@ header h3.subtitle {
   font-weight: 400;
   color: #bdc3c7;
   font-size: 25px;
-
-  z-index: 9999;
 }
 
 header a.social {
@@ -80,4 +79,17 @@ header a.social img {
 
 header .container {
   transform: skewY(6deg);
+}
+
+/* ====
+CONTENT
+==== */
+
+section {
+  margin-top: -80px;
+
+  background-image: url('../img/geometry2.png');
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: scroll;
 }
