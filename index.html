@@ -7,9 +7,12 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400|Raleway:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,500|Raleway:400,500" rel="stylesheet">
   </head>
   <body>
+
+    <!-- HEADER -->
     <header>
       <div class="container">
         <h1 class="title">Valentin ’Eywek’ T.</h1>
@@ -21,18 +24,54 @@
       </div>
     </header>
 
+    <!-- PRESENTATION -->
     <section>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
+      <div class="container">
+        <p>
+          Je m’appelle Valentin, connu également sous le surnom de Eywek.<br>
+          Je développe dans le domaine du web depuis 2013 et j’ai acquis de nombreuses compétences en tant qu’autodidacte ce qui m’a permis d’acquérir de l’expérience. <br>
+          Actuellement en Terminale S je projette d’intégrer l’école 42 dans le but de rendre ma passion également mon métier.
+        </p>
+        <p>
+          Je développe divers applications web à travers plusieurs languages de programmation tels quel PHP et Javascript. Je suis aussi capable de concevoir un site et son apparence grâce à mes compétences en HTML et CSS.
+        </p>
+      </div>
     </section>
+
+    <!-- SKILLS -->
+    <section>
+      <div class="container">
+        <h2>Mes compétences</h2>
+
+        <p class="italic">
+          Curieux, patient et perfectionniste j’apprends tous les jours et je m’intéresse à différentes technologies. J’essaye d’acroître mes compétences au maximum en m’investissant à 100% sur chacun de mes projets.
+        </p>
+
+        <div class="technos">
+          <i class="devicon-html5-plain-wordmark" data-toggle="tooltip" data-title="HTML 5"></i>
+          <i class="devicon-css3-plain-wordmark" data-toggle="tooltip" data-title="CSS 3"></i>
+          <i class="devicon-javascript-plain" data-toggle="tooltip" data-title="Javascript"></i>
+          <i class="devicon-jquery-plain" data-toggle="tooltip" data-title="jQuery"></i>
+          <i class="devicon-php-plain" data-toggle="tooltip" data-title="PHP"></i>
+          <i class="devicon-mysql-plain" data-toggle="tooltip" data-title="MySQL"></i>
+          <i class="devicon-nodejs-plain" data-toggle="tooltip" data-title="NodeJS"></i>
+          <i class="devicon-mongodb-plain-wordmark" data-toggle="tooltip" data-title="MongoDB"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
 
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
   </body>
 </html>

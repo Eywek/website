@@ -87,9 +87,45 @@ CONTENT
 
 section {
   margin-top: -80px;
+  padding-top: 180px;
+
+  text-align: center;
 
   background-image: url('../img/geometry2.png');
   background-repeat: repeat;
   background-position: top left;
   background-attachment: scroll;
+}
+
+section p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+  color: #95a5a6;
+}
+
+section p.italic {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+}
+
+section h2 {
+  margin-bottom: 60px;
+
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 500;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+section .technos {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+section .technos i {
+  font-size: 70px;
+  margin: 5px;
 }
