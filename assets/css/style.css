@@ -1,0 +1,83 @@
+/*
+  Copyright 2017 - Valentin 'Eywek' T.
+*/
+
+/* ====
+GLOBAL
+==== */
+
+html, body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* ====
+HEADER
+==== */
+
+header {
+  text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+  background: #000;
+
+  width: 100%;
+  overflow: hidden;
+  margin-top: -80px;
+  transform: skewY(-6deg);
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  background: url('../img/banner-v3-compressed.png');
+  -webkit-filter: blur(3.8px);
+  -moz-filter: blur(3.8px);
+  -o-filter: blur(3.8px);
+  -ms-filter: blur(3.8px);
+  filter: blur(3.8px);
+}
+
+header h1.title {
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #ecf0f1;
+  font-size: 45px;
+
+  margin-bottom: 5px;
+}
+
+header h3.subtitle {
+  margin-top: 5px;
+
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #bdc3c7;
+  font-size: 25px;
+
+  z-index: 9999;
+}
+
+header a.social {
+  margin: 5px;
+}
+
+header a.social img {
+  width: 32px;
+  cursor: pointer;
+}
+
+header .container {
+  transform: skewY(6deg);
+}
