@@ -148,6 +148,14 @@ section.colored h2 {
   color: #ecf0f1;
 }
 
+section.colored h2 span {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  color: #95a5a6;
+  text-transform: none;
+}
+
 section h3.mail {
   color: #34495e;
   font-family: 'Raleway';
@@ -227,9 +235,25 @@ section.colored .project .infos h3 {
   color: #2c3e50;
 }
 
+section.colored .project .content {
+  height: 100%;
+}
+
+section.colored .project .content .infos {
+  height: 185px;
+}
+
+section.colored .project .infos {
+  position: relative;
+}
+
 section.colored .project .infos .link {
-  margin-top: 10px;
-  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  text-align: center;
+  left: 0;
+  right: 0;
 
   color: #34495e;
   font-family: 'Raleway';
