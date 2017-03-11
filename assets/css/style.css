@@ -148,6 +148,17 @@ section.colored h2 {
   color: #ecf0f1;
 }
 
+section h3.mail {
+  color: #34495e;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 40px;
+}
+
+/* ====
+PROJECTS
+==== */
+
 section.colored .project {
   background: #ecf0f1;
   width: 100%;
@@ -159,13 +170,89 @@ section.colored .project {
   -webkit-box-shadow: 2px 2px 100px 18px rgba(0,0,0,0.35);
   -o-box-shadow: 2px 2px 100px 18px rgba(0,0,0,0.35);
   box-shadow: 2px 2px 100px 18px rgba(0,0,0,0.35);
+
+  cursor: default;
+  position: relative;
 }
 
-section h3.mail {
+/*section.colored .project .content img {
+  transition: filter 0.5s;
+  -webkit-transition: -webkit-filter 0.5s;
+  cursor: pointer;
+}
+
+section.colored .project:hover .content img {
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}
+
+section.colored .project:after {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+section.colored .project:hover:after {
+  content: attr(data-description);
+  position: absolute;
+  opacity: 1;
+
+  top: 50px;
+  left: 20px;
+  right: 20px;
+
+  color: #2c3e50;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}*/
+
+section.colored .project img {
+  width: 100%;
+}
+
+section.colored .project .infos {
+  padding: 10px;
+  border-top: 1px solid #95a5a6;
+}
+
+section.colored .project .infos h3 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+section.colored .project .infos .link {
+  margin-top: 10px;
+  display: inline-block;
+
   color: #34495e;
   font-family: 'Raleway';
   font-weight: 400;
-  font-size: 40px;
+  font-size: 20px;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+section.colored .project .infos .label {
+  color: #ecf0f1;
+  font-family: 'Raleway';
+
+  display: inline-block;
+  margin-top: 5px;
+
+  background: #34495e;
+  padding: 5px 10px;
+
+  border-radius: 3px;
+
+  cursor: default;
 }
 
 /* ====
