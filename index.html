@@ -166,18 +166,13 @@
                   <span class="label">NodeJS</span>
                   <span class="label">Typescript</span>
                   <span class="label">MongoDB</span>
-                  <span class="label">ElasticSearch / Kibana</span>
+                  <span class="label">ElasticSearch</span>
                   <span class="label">Redis</span>
                   <span class="label">NGINX / HAProxy</span>
-                  <span class="label">Scaling</span>
                   <span class="label">CI / CD</span>
-                  <span class="label">Docker</span>
+                  <span class="label">Docker</span> 
                   <span class="label">Prometheus</span>
-                  <span class="label">PM2</span>
-                  <span class="label">Nomad / Consul</span>
-                  <span class="label">Terraform / Packer</span>
-                  <span class="label">AWS</span>
-                  <span class="label">Baremetal</span>
+                  <span class="label">Hashistack</span>
                   <a href="https://keymetrics.io" class="link">https://keymetrics.io</a>
                 </div>
               </div>
@@ -226,7 +221,7 @@
 
     <!-- FOOTER -->
     <footer>
-      <p>© 2018 - Valentin T.</p>
+      <p>© <span id="year"></span> - Valentin T.</p>
     </footer>
 
     <script type="text/javascript">
@@ -237,6 +232,8 @@
 
       ga('create', 'UA-46109204-1', 'eywek.fr');
       ga('send', 'pageview');
+      
+      document.querySelector('#year').innerHTML = new Date().getFullYear()
     </script>
   </body>
 </html>
